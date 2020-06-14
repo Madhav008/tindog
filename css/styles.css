@@ -2,12 +2,162 @@
     background-color: #ff4c68;
     color: aliceblue;
 }
+body{
+    font-family: "Montserrat";
+}
 
 h1{
     line-height: 1.5;
-    font-family: "Montserrat-Black";
+    font-family: "Montserrat";
     font-size: 3rem;
 }
-.container-fluid{
-    padding: 3% 15%;
+h2 {
+    font-family: Montserrat;
+    font-size: 3rem;
 }
+h3{
+    font-weight: bold;
+
+}
+p{
+    font-family: Montserrat-Light;
+    color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+@media (max-width:1028px){
+    .nav-link{
+        font-size: 2rem;
+       
+    }
+}
+
+
+.download-button{
+    margin: 5% 03% 5% 0% ;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+@media (max-width:1028px)  {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+       position: static;
+       transform: rotate(0deg);
+    }
+
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68
+}
+
+
+#testimonials{
+   
+    text-align: center;
+    color: aliceblue;
+    background-color: #ef8172;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding-top: 10%;
+    padding-left: 13%;
+    padding-right: 13%;
+    
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+.card{
+    background-color: #ff4c68;
+    
+}
+.card-body h2{
+    font-family: Montserrat-Light;
+}
+.card-body p{
+    color: aliceblue;
+}
+
+#cta{
+    text-align: center;
+    background-color: #ef8172;
+    color: aliceblue;
+    padding: 7% 15%;
+}
+
+#cta h3{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+}
+
+@media (max-width:1028px){
+    #cta{
+        text-align: center;
+        background-color: #ef8172;
+        color: aliceblue;
+    }
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+footer i{
+    font-size: 2rem;
+    margin: 3rem;
+}
+
